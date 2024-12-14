@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <poppler/glib/poppler.h>
+#include "glib/poppler.h"
 
 void extract_images(const char *input_pdf, const char *output_pdf) {
     // Initialize variables
